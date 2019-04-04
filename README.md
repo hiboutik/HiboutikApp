@@ -10,10 +10,10 @@ Installing any web-application locally requires that you first install the adequ
 
 ## Create a database
 
-CREATE DATABASE `hibou_apptest` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-
 
 ```
+CREATE DATABASE `hibou_apptest` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
 USE `hibou_apptest`;
 
 CREATE TABLE `oauth_tokens` (
