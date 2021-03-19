@@ -1,0 +1,28 @@
+{
+    "name": "hiboutik/apps",
+    "description": "Hiboutik App",
+    "type": "library",
+    "keywords": ["hiboutik", "hiboutikapp", "app"],
+    "homepage": "https://www.hiboutik.com/",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Hiboutik",
+            "email": "contact@hiboutik.com",
+            "homepage": "https://www.hiboutik.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+      "email": "contact@hiboutik.com"
+    },
+    "require": {
+        "hiboutik/hiboutikapi": "~2.2",
+        "hiboutik/oauth": "~1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hiboutik\\": "src/Hiboutik/"
+        }
+    }
+}
